@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_map/convert_latlang_to_address.dart';
-import 'package:google_map/home_screen.dart';
+import 'package:google_map/custom_marker_info_window.dart';
 
 void main() {
   runApp(
@@ -23,7 +22,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const ConvertLatLangToAddress(),
+      home: const CustomMarkerInfoWindow(),
     );
   }
 }
