@@ -52,7 +52,7 @@ class _StyleGoogleMapScreenState extends State<StyleGoogleMapScreen> {
                       'assets/mapTheme/silver_theme.json',
                     )
                         .then((str) {
-                      mapTheme = str;
+                      value.setMapStyle(str);
                     });
                   });
                 },
@@ -66,7 +66,7 @@ class _StyleGoogleMapScreenState extends State<StyleGoogleMapScreen> {
                       'assets/mapTheme/retro_theme.json',
                     )
                         .then((str) {
-                      mapTheme = str;
+                      value.setMapStyle(str);
                     });
                   });
                 },
@@ -80,7 +80,7 @@ class _StyleGoogleMapScreenState extends State<StyleGoogleMapScreen> {
                       'assets/mapTheme/dark_theme.json',
                     )
                         .then((str) {
-                      mapTheme = str;
+                      value.setMapStyle(str);
                     });
                   });
                 },
@@ -94,7 +94,7 @@ class _StyleGoogleMapScreenState extends State<StyleGoogleMapScreen> {
                       'assets/mapTheme/night_theme.json',
                     )
                         .then((str) {
-                      mapTheme = str;
+                      value.setMapStyle(str);
                     });
                   });
                 },
@@ -108,7 +108,7 @@ class _StyleGoogleMapScreenState extends State<StyleGoogleMapScreen> {
                       'assets/mapTheme/aubergine_theme.json',
                     )
                         .then((str) {
-                      mapTheme = str;
+                      value.setMapStyle(str);
                     });
                   });
                 },
