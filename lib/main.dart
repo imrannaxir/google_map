@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_map/custom_marker_info_window.dart';
+import 'package:google_map/style_google_map_screen.dart';
 
 void main() {
   runApp(
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const CustomMarkerInfoWindow(),
+      home: const StyleGoogleMapScreen(),
     );
   }
 }
